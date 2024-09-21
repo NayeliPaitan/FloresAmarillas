@@ -1,0 +1,68 @@
+body {
+    background: #010113; /* Color de fondo de la página */
+}
+
+
+
+h1, p {
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+.letter-image {
+    position: fixed;
+    top: 100%;
+    left: 8%;
+    width: 0;
+    height: 100%;
+}
+
+.animated-mail {
+    position: fixed;
+    height: 
+        0px;
+    width: 300px;
+    transition: .4s; /* Transición suave para las animaciones */
+}
+
+.letter {
+    left: 500px;
+    bottom: 0px;
+    position: absolute;
+    width: 600px;
+    height: 500px; /* Dimensiones de la carta */
+    background: white; /* Fondo blanco para la carta */
+    z-index: 1; /* Mantiene la carta en el medio */
+    overflow: hidden; /* Oculta el contenido que sobresale */
+    transition: .4s .2s; /* Transición para animaciones */
+}
+
+.letter-border {
+    height: 20px;
+    width: 100%;
+    background: repeating-linear-gradient(
+        -45deg,
+        #cb5a5e,
+        #cb5a5e 8px,
+        transparent 8px,
+        transparent 18px
+    ); /* Borde con un efecto de rayas */
+}
+
+.letter-title {
+    margin-top: 30px;
+    margin-left: 5px;
+    height: 10px;
+    width: 50%; /* Dimensiones del título */
+    background: #cb5a5e; /* Color del título */
+}
+
+.letter-context {
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 10px;
+    width: 30%; /* Dimensiones del contenido */
+    background: #cb5a5e; /* Color del contenido */
+}
+
+
+
